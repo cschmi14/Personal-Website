@@ -521,10 +521,9 @@ h4 {
     font-weight: var(--fw-bold);
     text-align: center;
 }
-/* .experience__subtitle-one {
+.experience__subtitle-one {
     font-family: var(--ff-secondary);
-    text-align: left;
-} */
+}
 
 .experience-one__roles {
     font-size: var(--fs-h3);
