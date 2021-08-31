@@ -255,6 +255,15 @@ h4 {
     box-shadow: var(--bs);
 }
 
+.social-list__header {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0;
+}
+
 @media  (min-width: 600px) {
     .intro {
         display: grid;
@@ -289,19 +298,10 @@ h4 {
         grid-area: links;
         color: var(--clr-accent);
         text-align: center;
-        padding: 2.5em 0;
+        padding: 1em 0;
         font-size:  1.75rem;
         font-weight: var(--fw-bold);
     }
-}
-
-.social-list__header {
-    list-style: none;
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-    margin: 2em 0 0;
-    padding: 0;
 }
 
 
