@@ -257,11 +257,16 @@ h4 {
 
 .social-list__header {
     list-style: none;
+    color: var(--clr-accent);
     text-decoration: none;
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    padding: 0;
+    color: var(--clr-accent);
+    text-align: center;
+    padding: 1em 0;
+    font-size:  1.75rem;
+    font-weight: var(--fw-bold);
 }
 
 @media  (min-width: 600px) {
@@ -296,11 +301,6 @@ h4 {
 
     .social-list__header {
         grid-area: links;
-        color: var(--clr-accent);
-        text-align: center;
-        padding: 1em 0;
-        font-size:  1.75rem;
-        font-weight: var(--fw-bold);
     }
 }
 
