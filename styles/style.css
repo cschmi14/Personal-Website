@@ -685,10 +685,30 @@ td {
     font-weight: var(--fw-reg);
 }
 th, td {
-    padding: 3px 30px;
+    padding: 3px 15px;
     font-family: var(--ff-secondary);
+    font-size: 0.75rem;
     border: 2px solid;
     border-radius: 5px;
+}
+
+@media (min-width: 420px) {
+    caption {
+        font-size: var(--fs-h2);
+    }
+    th {
+        font-size: var(--fs-h3);
+        text-decoration: underline;
+    }
+    td {
+        font-weight: var(--fw-reg);
+    }
+    th, td {
+        padding: 3px 20px;
+        font-family: var(--ff-secondary);
+        border: 2px solid;
+        border-radius: 5px;
+    }
 }
 
 .course-open .courses {
