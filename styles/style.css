@@ -687,7 +687,7 @@ td {
 th, td {
     padding: 3px 15px;
     font-family: var(--ff-secondary);
-    font-size: 0.75rem;
+    font-size: 1rem;
     border: 2px solid;
     border-radius: 5px;
 }
@@ -748,6 +748,7 @@ th, td {
     overflow-y: scroll;
     background-color: var(--clr-gray);
     height: 100%;
+    width: min-content;
 }
 .table-container {
     text-align: center;
@@ -756,6 +757,16 @@ th, td {
 
 .courses-button__container {
     text-align: center;
+}
+
+@media (min-width: 750px) {
+    .scroll-tables {
+        display: inline-block;
+        overflow-y: scroll;
+        background-color: var(--clr-gray);
+        height: 100%;
+        width: 700px;
+    }
 }
 
 /* Projects */
