@@ -239,7 +239,7 @@ h4 {
     bottom: 6px;
 }
 
-#java__link {
+.java__link {
     font-weight: var(--fw-bold);
     color: white;
 }
